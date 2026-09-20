@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-ticktick
+name: "@perrylink/dsh-ticktick"
+description:
+  en: "TickTick (Dida365) task bridge for DSH: a session-header task panel with list filter, undone/completed views, search and drag reorder, eleven curated agent tools and a settings plugin card over the official TickTick MCP endpoint."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - tasks
+  - ticktick
+  - mcp
+  - sidebar
+source:
+  repository: https://github.com/PerryLink/dsh-ticktick
+  repositoryNodeId: R_kgDOUNCCrg
+  subpath: null
+  commit: 41ff66d2e6a2447237a91b5b90571a4b49bfcea0
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: "@perrylink/dsh-ticktick"
+  version: 0.1.7
+  integrity: sha512-Qsjz1nvfOGet30Xpc9KggVVEjM2QEPPwynb/s54UPzGTHjOqOFYgGMVIDVPsbTP1qCb0QV8SgiMpw4KNHbuXWw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-20T03:29:32Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
