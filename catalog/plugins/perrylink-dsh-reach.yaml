@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: perrylink-dsh-reach
+name: "dsh-reach"
+description:
+  en: "Multi-channel decision and remote-control bridge for DSH: approval and question cards from any workspace mirrored to IM chat (WeChat iLink first) and answered from chat, with a session console and fail-closed sender ownership."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: messaging-notifications
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - remote-control
+  - wechat
+  - telegram
+  - feishu
+  - approvals
+source:
+  repository: https://github.com/PerryLink/dsh-reach
+  repositoryNodeId: R_kgDOUNLAig
+  subpath: null
+  commit: 0186f2cb41fbc55e585171734c7b8f43fdfaa889
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: "dsh-reach"
+  version: 0.1.10
+  integrity: sha512-1JWZz1r+rxwBDzhrTbrc0WODhIhEtHeMZw8CobPOklNM/6u8cnacRFK6azy2gK1hbfqHdv/HFkzeXvstQipRUw==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-20T03:29:32Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
