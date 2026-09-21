@@ -20,7 +20,7 @@ source:
   repository: https://github.com/PerryLink/dsh-team-rooms
   repositoryNodeId: R_kgDOUW9qGg
   subpath: null
-  commit: 5ec9b5895931978167fdfd82e9b0aaf39d4cf255
+  commit: 071207beab9e79764f953b9b59547cca3afba252
 creator:
   github: PerryLink
 package:
@@ -38,7 +38,7 @@ license:
   spdx: Apache-2.0
 verification:
   status: eligible
-  checkedAt: 2026-09-20T03:29:32Z
+  checkedAt: 2026-09-21T20:09:59Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
