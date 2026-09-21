@@ -2,14 +2,13 @@ schemaVersion: 1
 id: perrylink-dsh-plugin-kit
 name: "@perrylink/dsh-plugin-kit"
 description:
-  en: "Shared zero-runtime-dependency toolkit for authoring DSH plugins: a pluggable provider registry seam, fail-closed approval and session-event gates, shared sanitize/pricing/judge modules and a new-plugin skeleton."
+  en: "Shared zero-runtime-dependency library for authoring DSH plugins: a provider registry, approval and session-event gates, sanitize/pricing/judge modules and a plugin skeleton. Its harness bundle layer is empty and registers no plugin row."
   evidencePath: README.md
 unofficial: true
-kind: plugin
+kind: ecosystem-project
 primaryCategory: coding-developer-tools
 tags:
   - dsh
-  - dsh-plugin
   - deepseek-harness
   - cordis
   - plugin-authoring
@@ -20,7 +19,7 @@ source:
   repository: https://github.com/PerryLink/dsh-plugin-kit
   repositoryNodeId: R_kgDOUE4Jqw
   subpath: null
-  commit: 99a16ef79fbc16a0eef15a6189f9ff3e72a9cf15
+  commit: eff8fd1fbd901f621812a40df3dfcfd9ced0cb22
 creator:
   github: PerryLink
 package:
@@ -38,7 +37,7 @@ license:
   spdx: Apache-2.0
 verification:
   status: eligible
-  checkedAt: 2026-09-20T03:29:32Z
+  checkedAt: 2026-09-21T20:09:59Z
   repositoryIdentity: resolved
   smokeTest: null
 popularity:
