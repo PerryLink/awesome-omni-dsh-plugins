@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-team-rooms
+name: "dsh-team-rooms"
+description:
+  en: "Team rooms for DeepSeek Harness: persistent shared rooms across independent sessions, with a message bus, a shared task board and a timeline."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: sessions-productivity
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - team-rooms
+  - message-bus
+  - task-board
+  - cross-session
+source:
+  repository: https://github.com/PerryLink/dsh-team-rooms
+  repositoryNodeId: R_kgDOUW9qGg
+  subpath: null
+  commit: 071207beab9e79764f953b9b59547cca3afba252
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: "dsh-team-rooms"
+  version: 1.0.1
+  integrity: sha512-AxWL8JPkyGAeErV9/QkOkbDGDB6qLtFr06Ku+crqi6yDHC+EI5goINTnJW05UouC2sVXh45/4BaBhPZkrOuYjQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-21T20:09:59Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
