@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-plugin-upgrade
+name: "dsh-plugin-upgrade"
+description:
+  en: "Upgrade skill for DSH plugin authors: one package carrying one corridor index that reads the caller declared DSH range and routes it to the matching closed corridor card, plus a zero-dependency seam scanner."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: coding-developer-tools
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - plugin-authoring
+  - migration
+  - skill
+  - scanner
+source:
+  repository: https://github.com/PerryLink/dsh-plugin-upgrade
+  repositoryNodeId: R_kgDOUhebHQ
+  subpath: null
+  commit: 63625f9a71a2f9b4f4124698d4195b59b61c973a
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: "dsh-plugin-upgrade"
+  version: 2.0.1
+  integrity: sha512-kZcAJVLyBrh4b5Mzx3N85pypp0L1mNPuQ9gREM23eV+trVLhArLJv6+/YWwlpAAbEOilYcQqyXv0+YA7+G21UA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-20T03:29:32Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
