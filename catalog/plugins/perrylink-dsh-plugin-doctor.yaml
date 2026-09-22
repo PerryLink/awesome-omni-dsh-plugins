@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-plugin-doctor
+name: "@perrylink/dsh-plugin-doctor"
+description:
+  en: "Zero-dependency detector for DSH plugins: package-structure gates (R), cordis contract scans (K), a keyless headless sandbox smoke run (D) and ecosystem-listing checks (CC) in one pass."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - diagnostics
+  - static-analysis
+  - sandbox-smoke
+  - devtools
+source:
+  repository: https://github.com/PerryLink/dsh-plugin-doctor
+  repositoryNodeId: R_kgDOURI_1g
+  subpath: null
+  commit: a69c02eca96f12dbef9ec8f87b513e02248069b1
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: "@perrylink/dsh-plugin-doctor"
+  version: 0.2.3
+  integrity: sha512-sReEBnC/CCFH64rlEziFgZIQFhumhbeK18JnabA7OsMP95aX08XIQPnshrFPaG22x4Qon+WfI0qIQCtxPQVs7Q==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-20T03:29:32Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
