@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-autotier
+name: "dsh-autotier"
+description:
+  en: "Automatic strong/cheap model-tier routing for DeepSeek Harness: intent-gated tier landing on the agent/request waterfall, plan-mode handoff, deterministic high-risk guards on tools/pre-execute, and failure escalation with TTL fallback."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: models-providers-routing
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - model-routing
+  - model-tiers
+  - cost-control
+  - slash-command
+source:
+  repository: https://github.com/PerryLink/dsh-autotier
+  repositoryNodeId: R_kgDOUTcPgg
+  subpath: null
+  commit: 539ffeb74c6aba268c40ab95e8f0a635f7ec379c
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: "dsh-autotier"
+  version: 0.2.3
+  integrity: sha512-QgW/EmQtIGcfiRX/mrMKvEE3TuYP86b/qkt2Xex2PO3fkxOMLPSlbHKqsv0JERx32DQF+GCtkduS0imQIy8YEQ==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-21T20:09:59Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 1
+provenance:
+  discussion: null
+  comment: null
