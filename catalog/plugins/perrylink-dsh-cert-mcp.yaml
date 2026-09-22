@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: perrylink-dsh-cert-mcp
+name: "dsh-cert-mcp"
+description:
+  en: "Read-only MCP server over the DSH plugin-certification registry: get_certification, list_certified and certification_spec, so any MCP client can query a plugin certification grade, its snapshot and the five-dimension evidence behind it."
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: diagnostics-observability
+tags:
+  - dsh
+  - dsh-plugin
+  - deepseek-harness
+  - cordis
+  - mcp
+  - mcp-server
+  - certification
+  - registry
+source:
+  repository: https://github.com/PerryLink/dsh-cert-mcp
+  repositoryNodeId: R_kgDOUMwFGg
+  subpath: null
+  commit: 78e6a0a165d7c14d4c8591a48b2fae048a8eeaa4
+creator:
+  github: PerryLink
+package:
+  ecosystem: npm
+  name: "dsh-cert-mcp"
+  version: 0.2.2
+  integrity: sha512-Tea7B+jTV6K3XHyKZZJA7hRstJkB9q4inw2wQanQQWOXhtreATstE8UdZ4BmWds/QV4Jiua+sEeSPn/b1TRtDA==
+dsh:
+  profiles:
+    - web
+    - headless
+  evidencePath: cordis.patch.yml
+repositoryScope: dedicated
+license:
+  spdx: Apache-2.0
+verification:
+  status: eligible
+  checkedAt: 2026-09-20T03:29:32Z
+  repositoryIdentity: resolved
+  smokeTest: null
+popularity:
+  starsPolicy: exact-repository
+  stars: 0
+provenance:
+  discussion: null
+  comment: null
